@@ -27,3 +27,12 @@ series_idades.describe()
 # %%
 series_idades.quantile(0.75)
 # %%
+series_idades.shape
+# %%
+idades[0]
+# %%
+series_idades.index = ['a', 'b', 'c', 'd']
+series_idades
+# %%
+series_idades.iloc[0]
+# %%
