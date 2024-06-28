@@ -1,4 +1,6 @@
 #Programinha para jogar na loteria e descobrir o número da sorte com somente 3 tentativas
+#
+
 def check_input():
     
     while True:
@@ -38,7 +40,6 @@ for i in range(3):
         
     if numero == 7:
         print('Você Acertou!! Parabéns!!!!')
-        tentativas = tentativas + 1
         break
         
     elif numero > numero_sorte:
