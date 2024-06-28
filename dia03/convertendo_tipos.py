@@ -26,3 +26,4 @@ df
 # %%
 
 df.dtypes
+# %%
